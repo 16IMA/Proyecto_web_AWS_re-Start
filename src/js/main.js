@@ -3,7 +3,7 @@
 function App() {
     return (
             <body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
-                <!-- TopNavBar -->
+                {/* TopNavBar */}
                 <header class="bg-[#253140] dark:bg-slate-950/80 backdrop-blur-md text-white docked full-width top-0 sticky z-50 shadow-lg shadow-[#101c2b]/10 flex justify-between items-center w-full px-8 py-4">
                     <div class="text-xl font-bold text-white tracking-tight">AWS Journey Master</div>
                     <nav class="hidden md:flex items-center gap-8">
@@ -17,7 +17,7 @@ function App() {
                     </button>
                 </header>
                 <main>
-                    <!-- Hero Section -->
+                    {/* Hero Section */}
                     <section class="hero-gradient pt-32 pb-24 px-8 overflow-hidden relative">
                         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-16 relative z-10">
                             <div class="space-y-8">
@@ -54,7 +54,7 @@ function App() {
                             </div>
                         </div>
                     </section>
-                    <!-- Section 1: The Certification -->
+                    // Section 1: The Certification
                     <section class="py-24 px-8 bg-surface" id="certification">
                         <div class="max-w-7xl mx-auto">
                             <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
@@ -117,7 +117,7 @@ function App() {
                             </div>
                         </div>
                     </section>
-                    <!-- Section 2: Documentation -->
+                    // Section 2: Documentation 
                     <section class="py-24 px-8 bg-surface-container-low" id="documentation">
                         <div class="max-w-7xl mx-auto">
                             <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
@@ -131,7 +131,7 @@ function App() {
                                 </a>
                             </div>
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                                <!-- Documentation Cards -->
+                                // Documentation Cards 
                                 <div class="bg-surface border border-outline/10 p-8 rounded-xl hover:border-primary/40 transition-colors group">
                                     <div class="bg-primary/10 w-12 h-12 flex items-center justify-center rounded-lg mb-6">
                                         <span class="material-symbols-outlined text-primary" data-icon="description">description</span>
@@ -159,7 +159,7 @@ function App() {
                             </div>
                         </div>
                     </section>
-                    <!-- Section 3: Video Resources -->
+                    {/* Section 3: Video Resources */}
                     <section class="py-24 px-8 bg-surface" id="video">
                         <div class="max-w-7xl mx-auto">
                             <div class="mb-16">
@@ -167,7 +167,7 @@ function App() {
                                 <h2 class="text-4xl md:text-5xl font-black text-on-surface mt-4">Videoteca de Recursos</h2>
                             </div>
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                                <!-- Video Capsules -->
+                                {/* Video Capsules */}
                                 <div class="group cursor-pointer">
                                     <div class="relative aspect-video rounded-xl overflow-hidden mb-4">
                                         <img alt="Video Thumb" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Top down view of a modern dark workstation with a glowing laptop screen displaying cloud infrastructure code and diagrams" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBf_qkFx8QQEP2olH6gybRc9T1YNub4ivjim3HForTcAtZ-ecV15D5-I_EK3lVBPIgHw-EgAnlJc43w5lDwk34HkkcwEE5k05jPJFlsjgW6k7TY0wK4f479cmHk4mdt-y7CSuHhLP-rwQDliwZSJDYDC0uuiLH2M2LimS-WX79LfohMsy0PgOHjwEGBrxshHc0TA1gyqJZF3PEpI_4gYcC78aVtXuNNMXRayy3ffzZIHwsFOE6K3g10LFcpGj2EG6HWtOUXp3IEMD8x" />
@@ -219,7 +219,7 @@ function App() {
                             </div>
                         </div>
                     </section>
-                    <!-- Section 4: Practice Exams -->
+                    {/* Section 4: Practice Exams */}
                     <section class="py-24 px-8 bg-surface-container-low" id="exams">
                         <div class="max-w-7xl mx-auto">
                             <div class="mb-16">
@@ -294,7 +294,7 @@ function App() {
                         </div>
                     </section>
                 </main>
-                <!-- Footer -->
+                {/* Footer */}
                 <footer class="bg-[#253140] dark:bg-slate-950 text-white full-width py-12">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-12 max-w-7xl mx-auto items-start">
                         <div class="space-y-6">
