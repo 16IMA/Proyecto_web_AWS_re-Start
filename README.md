@@ -15,7 +15,7 @@ El flujo de trabajo seguido para este proyecto fue el siguiente:
 
 - Optimización Estática: Se reemplazaron las rutas de imágenes externas por archivos locales y se configuraron enlaces externos (target="_blank") para recursos educativos y vídeos de YouTube.
 
-- Aquí se muestra el prototipo inicial generado en Stitch antes de la codificación manual: ![Diseño de Stitch](./design/screen.png)
+- Aquí se muestra el prototipo inicial generado en Stitch antes de la codificación manual: ![Diseño de Stitch](./desing/screen.png)
 
 ## ☁️ Despliegue en Amazon S3
 El sitio se aloja como una Static Website utilizando un bucket de Amazon S3 de manera temporal como ejercicio para el bootcamp re/Start AWS. A continuación, se detallan los pasos generales realizados:
