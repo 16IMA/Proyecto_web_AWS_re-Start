@@ -99,9 +99,9 @@
 <body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
     <!-- TopNavBar -->
     <header
-        class="bg-[#253140] dark:bg-slate-950/80 backdrop-blur-md text-white docked full-width top-0 sticky z-50 shadow-lg shadow-[#101c2b]/10 flex justify-center items-center w-full px-8 py-4">
+        class="bg-[#253140] dark:bg-slate-950/80 backdrop-blur-md text-white docked full-width top-0 sticky z-50 shadow-lg shadow-[#101c2b]/10 flex items-center w-full px-8 py-4 relative">
         <div class="text-xl font-bold text-white tracking-tight">Guía AWS Practitioner </div>
-        <nav class="hidden md:flex items-center gap-8">
+        <nav class="hidden md:flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
             <a class="label-md uppercase tracking-wide text-[#ff9900] font-bold hover:text-[#ff9900] transition-colors duration-300"
                 href="#certification">La Certificación</a>
             <a class="label-md uppercase tracking-wide text-white/80 hover:text-[#ff9900] transition-colors duration-300"
@@ -111,7 +111,8 @@
             <a class="label-md uppercase tracking-wide text-white/80 hover:text-[#ff9900] transition-colors duration-300"
                 href="#exams">Exámenes</a>
         </nav>
-        </header>
+        
+    </header>
     <main>
         <!-- Hero Section -->
         <section class="hero-gradient pt-32 pb-24 px-8 overflow-hidden relative">
